@@ -4,8 +4,6 @@ const Coin = (props) => {
 
     const { image, name, symbol, current_price: price, total_volume, price_change_percentage_24h: price_change, market_cap } = props.coin
 
-    console.log(props)
-
     return (
         <div className='coin-container'>
             <div className='coin-row'>
